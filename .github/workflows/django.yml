@@ -23,7 +23,7 @@ jobs:
         python-version: "3.x"
     - name: Install Dependencies
       run: |
-        python -m pipenv install --upgrade pipenv
+        python -m pip install --upgrade pip
         pipenv install -r requirements.txt
     - name: Run Tests
       run: |
