@@ -1,7 +1,8 @@
 {
-  "name": "lms-next-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "Keelworks Learning Management System",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,5 +21,15 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keelworks/LMS.git"
+  },
+  "author": "Keelworks LMS Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keelworks/LMS/issues"
+  },
+  "homepage": "https://github.com/keelworks/LMS#readme"
 }
