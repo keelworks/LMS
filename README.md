@@ -77,7 +77,7 @@
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![Python][Python.org]][https://www.python.org]
+* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
