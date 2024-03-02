@@ -98,7 +98,7 @@ You will need the latest version of npm.
 1. Fork the repo
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/keelworks/LMS.git
    ```
 3. Install NPM packages
    ```sh
