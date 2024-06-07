@@ -1,0 +1,10 @@
+GET http://localhost:3000/getjwt
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTGluIiwiaWF0IjoxNzE3NzExNzE2fQ.wVgMAbAEo6483luf7xo8STePZ1lRhR2LqO0bgkvB-LI
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+ {
+    "username":"Lin"
+ }

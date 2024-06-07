@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const express = require('express');
 const app = express();
-const port = 3000; 
+const port = 4000; 
 app.get('/', (req, res) => {
   res.send('/home index');
 });
@@ -19,7 +19,7 @@ const posts = [
   }
 ]
 
-app.get('/getjwt',authenticateToken, (req, res) => {
+app.get('/checkjwt',authenticateToken, (req, res) => {
   res.json(posts.filter(post=>post.username === req.user.name))
 })
 
