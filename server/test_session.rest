@@ -1,0 +1,6 @@
+GET http://localhost:3000/session/projects
+Content-Type: application/json
+
+{
+    "user" : 3
+}

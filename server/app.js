@@ -1,7 +1,13 @@
 require('dotenv').config()
 
 const express = require('express');
+
 const app = express();
+
+
+const session_router = require('./SessionServer')
+app.use('/session', session_router)
+
 const port = 3000; 
 app.get('/', (req, res) => {
   res.send('/home index');
@@ -27,6 +33,7 @@ app.get('/getjwt',authenticateToken, (req, res) => {
 const jwt = require('jsonwebtoken')
 app.use(express.json())
 
+
 app.post('/login', (req,res) => {
   const username = req.body.username
   const user = {name: username}
@@ -34,6 +41,8 @@ app.post('/login', (req,res) => {
 
   res.json({accessToken: accessToken})
 })
+
+
 
 app.post('/fetch-post', (req, res) => {
     const requestData = req.body;
