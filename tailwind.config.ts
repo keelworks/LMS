@@ -30,6 +30,8 @@ const config = {
       },
       colors: {
         primary: '#FEE290',
+        secondary: '#FBBC05',
+        deepSkyBlue:'#28648E',
         purple: '#6750A4',
         error: '#BC0202',
         'image-picker-bg': '#D9D9D9',
